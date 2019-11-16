@@ -13,6 +13,7 @@ except:
     print("error")
 
 #TODO -- better method of password input and masking
+#TODO -- add html
 
 sent_from = gmail_user
 to = ['mgordon25@gmail.com']
