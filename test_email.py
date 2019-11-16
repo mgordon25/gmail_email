@@ -1,7 +1,18 @@
 import smtplib
+import getpass
 
-gmail_user = ''
-gmail_password = ''
+gmail_user = 'mgdevtest@gmail.com'
+#gmail_password = ''
+
+
+
+try:
+    gmail_password = input("Password: ")
+    
+except:
+    print("error")
+
+#TODO -- better method of password input and masking
 
 sent_from = gmail_user
 to = ['mgordon25@gmail.com']
